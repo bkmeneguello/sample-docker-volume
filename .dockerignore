@@ -1,0 +1,7 @@
+Dockerfile
+Makefile
+config.json
+plugin
+.git
+.dockerignore
+.idea

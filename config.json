@@ -1,0 +1,32 @@
+{
+  "Args": {
+    "Description": "",
+    "Name": "",
+    "Settable": null,
+    "Value": null
+  },
+  "Description": "A sample volume plugin for Docker",
+  "Documentation": "https://docs.docker.com/engine/extend/plugins/",
+  "Entrypoint": [
+    "sample-docker-plugin"
+  ],
+  "Env": [],
+  "Interface": {
+    "Socket": "samplefs.sock",
+    "Types": [
+      "docker.volumedriver/1.0"
+    ]
+  },
+  "Linux": {
+    "Capabilities": null,
+    "AllowAllDevices": false,
+    "Devices": null
+  },
+  "Mounts": null,
+  "Network": {
+    "Type": ""
+  },
+  "PropagatedMount": "/mnt",
+  "User": {},
+  "Workdir": ""
+}
